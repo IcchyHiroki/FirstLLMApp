@@ -1,8 +1,5 @@
 import tiktoken
 
-# assigning API KEY to initialize openai environment
-api_key = "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"
-
 # define encoding
 encoding = tiktoken.encoding_for_model('gpt-3.5-turbo')
 
