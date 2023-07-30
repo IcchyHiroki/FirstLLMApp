@@ -61,7 +61,7 @@ def main():
         st.session_state.messages.append(HumanMessage(content=user_input))
         with st.spinner("ChatGPT is typing ..."):
             answer, cost = get_answer(llm, st.session_state.messages)
-        st.session_state.messages.append(AIMessage(content=response.content))
+        st.session_state.messages.append(AIMessage(content=answer))
         st.session_state.costs.append(cost)
         
     # チャット履歴の表示
