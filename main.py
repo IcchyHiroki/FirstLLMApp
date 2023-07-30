@@ -12,7 +12,7 @@ from langchain.callbacks import get_openai_callback
 #  $ pip install watchdog
 
 # assigning API KEY to initialize openai environment
-api_key = "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"
+api_key = "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"
 
 def init_page():
     st.set_page_config(

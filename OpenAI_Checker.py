@@ -4,7 +4,7 @@ import openai
 # 一般的には"OPENAI_API_KEY"とコード公開する時には変更する
 # 外部流出の恐れを防ぐため
 # assigning API KEY to initialize openai environment
-openai.api_key = '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'
+openai.api_key = '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'
 
 # function that takes in string argument as parameter
 def comp(PROMPT, MaxToken=50, outputs=3):
